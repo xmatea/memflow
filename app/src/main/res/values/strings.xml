@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Memflow</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_vocabulary">My Vocabulary</string>
+    <string name="title_explore">Find words</string>
+    <string name="text_add_to_vocabulary_button">Add new word</string>
+</resources>
