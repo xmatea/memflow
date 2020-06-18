@@ -5,4 +5,7 @@
     <string name="title_vocabulary">My Vocabulary</string>
     <string name="title_explore">Find words</string>
     <string name="text_add_to_vocabulary_button">Add new word</string>
+    <string name="word_entry_form_header">Add new a word</string>
+    <string name="word_entry_word">New word</string>
+    <string name="word_entry_translation">Translation</string>
 </resources>

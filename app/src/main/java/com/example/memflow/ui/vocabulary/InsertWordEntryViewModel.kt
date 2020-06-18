@@ -1,17 +1,13 @@
 package com.example.memflow.ui.vocabulary
 
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.memflow.data.WordEntry
 import com.example.memflow.data.WordEntryRepository
-import kotlinx.coroutines.*
 
-class VocabularyViewModel(
+class InsertWordEntryViewModel(
     private val repository: WordEntryRepository
 ) : ViewModel() {
 
-    fun submitEntry(entry: WordEntry) {
-        GlobalScope.launch {
-            repository.insertWord(entry)
-        }
-    }
 }
